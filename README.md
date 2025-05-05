@@ -1,13 +1,7 @@
-probando probando
-123
-321
+Bienvenid@ al repositorio de Github del proyecto
+de DAM jGym formado por los integrantes:
 
-fksadlnfdaskfldskfdf
-dflsmdfñdsofsjpfposdfj
-fñlsdmflmps
-
-
-hola soy jorge
-miguel llega tarde
-
-cacatua
+Jorge Villuendas Soro
+David Pasamar Arroyo
+Miguel Ángel Gauna Enyedi
+Martín Ordovás Gracia
