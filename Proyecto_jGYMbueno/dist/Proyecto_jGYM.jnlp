@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Proyecto_jGYM.jnlp">
+  <information>
+    <title>Proyecto_jGYM</title>
+    <vendor>villu</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Proyecto_jGYM.jar" size="629760" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="17195" download="eager" />
+    <jar href="lib\PruebaInterfazjGym.jar" size="35610" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="proyecto_jgym.Proyecto_jGYM"  name="Proyecto_jGYM" />
+  <update check="always"/>
+</jnlp>
