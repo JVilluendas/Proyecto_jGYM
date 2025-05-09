@@ -50,12 +50,7 @@ CREATE TABLE clase (
     FOREIGN KEY (id_empleado) REFERENCES Persona(id_persona) on update cascade on delete cascade
 );
 
-create table informacion_general(
-CIF int primary key unique,
-nombre varchar(50),
-telefono int,
-direccion varchar(200)
-);
+
 
 create table equipamiento_clase(
 id_clase int,
