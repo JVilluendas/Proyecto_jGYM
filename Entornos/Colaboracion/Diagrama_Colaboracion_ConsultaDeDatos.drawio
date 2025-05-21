@@ -1,0 +1,94 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="0aEAIex5AfrO0MwewxDz">
+    <mxGraphModel dx="636" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ejGh-xggP8BQPB7D56io-1" value="Usuario" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="324" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-2" value="UI / Aplicación" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="547" y="324" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-3" value="Reglas del negocio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="547" y="499" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-4" value="Base de datos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="743" y="324" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-5" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ejGh-xggP8BQPB7D56io-1" target="ejGh-xggP8BQPB7D56io-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="547" y="444" as="sourcePoint" />
+            <mxPoint x="597" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ejGh-xggP8BQPB7D56io-2" target="ejGh-xggP8BQPB7D56io-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="627" y="343.76" as="sourcePoint" />
+            <mxPoint x="747" y="343.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="463" y="329" as="sourcePoint" />
+            <mxPoint x="503" y="329" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="503" y="359" as="sourcePoint" />
+            <mxPoint x="463" y="359" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="603" y="399" as="sourcePoint" />
+            <mxPoint x="603" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="573" y="459" as="sourcePoint" />
+            <mxPoint x="573" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-11" value="7. Elegir datos&lt;div style=&quot;font-size: 8px;&quot;&gt;5. Acceder a consulta de datos&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;1. Rellenar inicio de sesión&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="423" y="289" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-12" value="4. Refrescar pantalla&lt;div style=&quot;font-size: 8px;&quot;&gt;6. Mostrar pantalla de consulta&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;12. Mostrar datos solicitados&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="423" y="369" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ejGh-xggP8BQPB7D56io-2" target="ejGh-xggP8BQPB7D56io-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="637" y="353.76" as="sourcePoint" />
+            <mxPoint x="757" y="429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-14" value="&lt;div style=&quot;font-size: 8px;&quot;&gt;2. Validar sesión&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="613" y="419" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-15" value="&lt;div&gt;3. Sesión válida&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="473" y="419" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="666" y="328.71000000000004" as="sourcePoint" />
+            <mxPoint x="706" y="328.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="706" y="358.71000000000004" as="sourcePoint" />
+            <mxPoint x="666" y="358.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-18" value="10. Mandar consulta&lt;div&gt;8. Llamar BD&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="633" y="289" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ejGh-xggP8BQPB7D56io-19" value="9. Conexión BD&amp;nbsp;&lt;div&gt;11. Devolver datos solicitados&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="633" y="364" width="116" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
