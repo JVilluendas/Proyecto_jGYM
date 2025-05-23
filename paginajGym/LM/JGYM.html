@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROYECTO_jGym</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="estilos_principal.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark text-white">
+  <div class="position-relative vh-100 d-flex align-items-center justify-content-center overflow-hidden">
+    <video id="backgroundVideo" loop muted playsinline class="position-absolute top-50 start-50 translate-middle w-100 h-100 object-fit-cover z-n1">
+      <source src="VideoJGYM.mp4" type="video/mp4">
+    </video>
+
+    <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Logo_jGym.png" width="70">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item"><a class="nav-link" href="JGYM.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="Ubicacion.html">Ubicación</a></li>
+            <li class="nav-item"><a class="nav-link" href="Formulario.html">Contacto</a></li>
+            <li class="nav-item"><input type="text" placeholder="Buscar..." class="search-bar"></li> 
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="marquee">
+      <p>¡Bienvenido a JGYM! No te pierdas nuestras nuevas clases de Bodycombat y Zumba.</p>
+    </div>
+
+    <div class="text-center">
+      <h1 class="hero-title">jGym</h1>
+      <a href="Proyecto_Final_jGym.rar" download="Proyecto_Final_jGym.rar" class="btn btn-outline-light btn-lg mt-3 px-5 py-2 rounded-pill">Descargar</a>
+    </div>
+  </div>
+
+  <section class="bg-dark text-white pt-5 pb-2">
+    <div class="container text-center">
+      <h2 class="mb-4">¿Por qué elegir jGym?</h2>
+      <p class="lead">Entrena con los mejores equipos, entrenadores profesionales y una comunidad motivadora.</p>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <h4><i class="bi bi-check-circle me-2"></i>Instalaciones modernas</h4>
+          <p>Ambiente limpio, la maquinaria mas avanzada y zonas de relax.</p>
+        </div>
+        <div class="col-md-4">
+          <h4><i class="bi bi-people me-2"></i>Entrenadores expertos</h4>
+          <p>Recibe orientación personalizada para alcanzar tus metas.</p>
+        </div>
+        <div class="col-md-4">
+          <h4><i class="bi bi-heart-pulse me-2"></i>Salud y bienestar</h4>
+          <p>Nos preocupamos por tu cuerpo y mente. ¡Únete ya!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section class="bg-dark text-white pt-2 pb-5">
+    <div class="container text-center">
+      <p class="lead">Apoyamos proyectos sostenibles y cuidamos de nuestro planeta gastando menos recursos</p>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <h4><i class="bi bi-tree me-2"></i>Energias Renovables</h4>
+          <p>Nuestro sistema de ultima generación consigue recircular el aire gastando el minimo tanto dentro como fuera en la zona workout al aire libre.</p>
+        </div>
+        <div class="col-md-4">
+          <h4><i class="bi bi-cup-straw me-2"></i>Maquinas Expendedoras</h4>
+          <p>Tenemos las barritas energeticas y cualquier bebida isotonica preparada para ti, junto con tu suscripcion premium.</p>
+        </div>
+        <div class="col-md-4">
+          <h4><i class="bi bi-alarm me-2"></i>Horarios Flexibles</h4>
+          <p>Estamos abiertos desde las 7:00 hasta las 23:00!!! </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-dark py-5">
+    <div id="gymCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="jGym_EXTERIOR.png" class="d-block w-100" alt="Imagen 1">
+        </div>
+        <div class="carousel-item">
+          <img src="jGym_PESAS.png" class="d-block w-100" alt="Imagen 2">
+        </div>
+        <div class="carousel-item">
+          <img src="jGym_RELAX.png" class="d-block w-100" alt="Imagen 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#gymCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#gymCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+  <footer class="bg-dark text-light pt-3 pb-3">
+    <div class="container text-center text-md-start">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-4 mb-3">
+          <h5>Empresa</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none">Inicio</a></li>
+            <li><a href="Horario.html" class="text-light text-decoration-none">Horario</a></li>
+            <li><a href="Ubicacion.html" class="text-light text-decoration-none">Ubicaciones</a></li>
+            <li><a href="Proyecto_Final_jGym.rar" download="Proyecto_Final_jGym.rar" class="text-light text-decoration-none">Descargar App</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Soporte</h5>
+          <ul class="list-unstyled">
+            <li><a href="Formulario.html" class="text-light text-decoration-none">Contacto</a></li>
+            <li><a href="AvisoLegal.html" class="text-light text-decoration-none">Aviso Legal</a></li>
+            <li><a href="TerminosYCondiciones.html" class="text-light text-decoration-none">Términos y Condiciones</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Síguenos</h5>
+          <a href="https://www.facebook.com/?locale=es_ESins" class="text-light me-3 fs-4"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/" class="text-light me-3 fs-4"><i class="bi bi-instagram"></i></a>
+          <a href="https://x.com/home" class="text-light fs-4"><i class="bi bi-twitter-x"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center pt-3 border-top mt-4">
+      <p class="mb-0">© 2025 Creado por Miguel, David, Martín y Jorge</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('backgroundVideo').play();
+  </script>
+</body>
+</html>
