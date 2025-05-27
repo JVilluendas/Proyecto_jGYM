@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<personas>
+    <persona tipo="empleado">
+        <id>1</id>
+        <nombre>Martin</nombre>
+        <dni>11111111A</dni>
+        <direccion>Muel</direccion>
+        <telefono>111111111</telefono>
+        <puesto>Director de marketing</puesto>
+        <salario>5000</salario>
+    </persona>
+    <persona tipo="empleado">
+        <id>2</id>
+        <nombre>David</nombre>
+        <dni>22222222B</dni>
+        <direccion>Valdefierro</direccion>
+        <telefono>222222222</telefono>
+        <puesto>Coordinador de clases</puesto>
+        <salario>5000</salario>
+    </persona>
+    <persona tipo="empleado">
+        <id>3</id>
+        <nombre>Jorge</nombre>
+        <dni>33333333C</dni>
+        <direccion>Fuentes de Ebro</direccion>
+        <telefono>333333333</telefono>
+        <puesto>Director financiero</puesto>
+        <salario>5000</salario>
+    </persona>
+    <persona tipo="empleado">
+        <id>4</id>
+        <nombre>Miguel Angel</nombre>
+        <dni>44444444D</dni>
+        <direccion>Via Hispanidad</direccion>
+        <telefono>444444444</telefono>
+        <puesto>Director de RRHH</puesto>
+        <salario>5000</salario>
+    </persona>
+    <persona tipo="cliente">
+        <id>7</id>
+        <nombre>Juan</nombre>
+        <dni>12121212E</dni>
+        <direccion>Valdefierro</direccion>
+        <telefono>111222222</telefono>
+        <fecha>07-09-2024</fecha>
+    </persona>
+    <persona tipo="cliente">
+        <id>8</id>
+        <nombre>Pedro</nombre>
+        <dni>23232323F</dni>
+        <direccion>Valdespartera</direccion>
+        <telefono>222333333</telefono>
+        <fecha>19-11-2024</fecha>
+    </persona>
+    <persona tipo="cliente">
+        <id>9</id>
+        <nombre>Maria</nombre>
+        <dni>34343434G</dni>
+        <direccion>Miralbueno</direccion>
+        <telefono>333444444</telefono>
+        <fecha>27-01-2025</fecha>
+    </persona>
+    <persona tipo="cliente">
+        <id>10</id>
+        <nombre>Alberto</nombre>
+        <dni>45454545H</dni>
+        <direccion>Montecanal</direccion>
+        <telefono>444555555</telefono>
+        <fecha>07-05-2024</fecha>
+    </persona>
+    <persona tipo="cliente">
+        <id>11</id>
+        <nombre>Lucia</nombre>
+        <dni>56565656I</dni>
+        <direccion>Valdespartera</direccion>
+        <telefono>555666666</telefono>
+        <fecha>30-07-2024</fecha>
+    </persona>
+    <persona tipo="cliente">
+        <id>12</id>
+        <nombre>Jose</nombre>
+        <dni>67676767J</dni>
+        <direccion>Centro</direccion>
+        <telefono>666777777</telefono>
+        <fecha>01-01-2025</fecha>
+    </persona>
+    <persona tipo="cliente">
+        <id>13</id>
+        <nombre>Daniel</nombre>
+        <dni>78787878K</dni>
+        <direccion>Delicias</direccion>
+        <telefono>777888888</telefono>
+        <fecha>12-12-2024</fecha>
+    </persona>
+    <persona tipo="cliente">
+        <id>14</id>
+        <nombre>Daniela</nombre>
+        <dni>89898989L</dni>
+        <direccion>Monzalbarba</direccion>
+        <telefono>888999999</telefono>
+        <fecha>03-04-2025</fecha>
+    </persona>
+    <persona tipo="cliente">
+        <id>15</id>
+        <nombre>Pablo</nombre>
+        <dni>90909090M</dni>
+        <direccion>Borja</direccion>
+        <telefono>999000000</telefono>
+        <fecha>09-10-2024</fecha>
+    </persona>
+    <persona tipo="cliente">
+        <id>16</id>
+        <nombre>Andrea</nombre>
+        <dni>01010101N</dni>
+        <direccion>La Jota</direccion>
+        <telefono>111000000</telefono>
+        <fecha>15-10-2024</fecha>
+    </persona>
+    <persona tipo="cliente">
+        <id>17</id>
+        <nombre>Ivan</nombre>
+        <dni>12345678P</dni>
+        <direccion>La Magdalena</direccion>
+        <telefono>123456789</telefono>
+        <fecha>19-03-2025</fecha>
+    </persona>
+</personas>

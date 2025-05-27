@@ -1,0 +1,15 @@
+<!ELEMENT personas (persona)+>
+
+<!ELEMENT persona (id, nombre, dni, direccion, telefono, (fecha | (puesto, salario)))>
+<!ATTLIST persona tipo CDATA #REQUIRED>
+
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT salario (#PCDATA)>
